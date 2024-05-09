@@ -12,7 +12,7 @@ export default function Navigation({ children }) {
           <Link href={"/"}>
             <Image src={"/image/home-logo.png"} width={50} height={50}></Image>
           </Link>
-          <div className="flex gap-5 font-medium text-sm items-center">
+          <div className="flex gap-9 font-medium text-sm items-center">
             {nav.map((item) => (
               <LinkNavigation
                 key={item.route}
@@ -24,7 +24,7 @@ export default function Navigation({ children }) {
           </div>
         </nav>
       </header>
-      <main className="h-[300vh]">{children}</main>
+      <main className="mt-16">{children}</main>
     </>
   );
 }

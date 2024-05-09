@@ -1,0 +1,28 @@
+import React from "react";
+
+export default function arrowrighticon() {
+  return (
+    <div>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="1.3em"
+        height="1.3em"
+        viewBox="0 0 24 24"
+      >
+        <g fill="none">
+          <path
+            stroke="white"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M17 12H3"
+          />
+          <path
+            fill="white"
+            d="m21.715 11.797l-5.45-3.893a.8.8 0 0 0-1.265.65v6.891a.8.8 0 0 0 1.265.651l5.45-3.893a.25.25 0 0 0 0-.406"
+          />
+        </g>
+      </svg>
+    </div>
+  );
+}
