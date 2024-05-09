@@ -8,11 +8,8 @@ export default function sectionHeroImage() {
       <Image
         src="/image/bg-heroimage.png"
         alt="background wisata aceh"
-        layout="fill"
-        objectFit="cover"
-        objectPosition="center"
-        priority
-        className="bg-cover object-contain bg-center"
+        priority={true}
+        className="bg-cover object-contain bg-center fill-current"
       />
       <div className="absolute inset-20 flex flex-col items-start justify-center w-[40rem] mt-10">
         <h1 className="text-white text-5xl font-bold leading-snug">

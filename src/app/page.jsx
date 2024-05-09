@@ -7,7 +7,9 @@ export default function Home() {
     <>
       <Navigation></Navigation>
       <SectionHeroImage />
-      <SectionDestinasiUnggulan />
+      <div className="px-10 mt-20">
+        <SectionDestinasiUnggulan />
+      </div>
     </>
   );
 }

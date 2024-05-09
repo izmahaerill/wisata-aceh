@@ -4,6 +4,7 @@ export default function arrowrighticon() {
   return (
     <div>
       <svg
+        className="stroke-2"
         xmlns="http://www.w3.org/2000/svg"
         width="1.3em"
         height="1.3em"
@@ -12,9 +13,8 @@ export default function arrowrighticon() {
         <g fill="none">
           <path
             stroke="white"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
             d="M17 12H3"
           />
           <path

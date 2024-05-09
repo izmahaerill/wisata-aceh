@@ -10,7 +10,13 @@ export default function Navigation({ children }) {
       <header className="fixed z-40 top-0 right-0 left-0 shadow-md backdrop-blur-md">
         <nav className="flex justify-between px-10 py-3 items-center box-content text-black">
           <Link href={"/"}>
-            <Image src={"/image/home-logo.png"} width={50} height={50}></Image>
+            <Image
+              src={"/image/home-logo.png"}
+              width={50}
+              height={50}
+              priority={true}
+              alt="home logo"
+            ></Image>
           </Link>
           <div className="flex gap-9 font-medium text-sm items-center">
             {nav.map((item) => (
